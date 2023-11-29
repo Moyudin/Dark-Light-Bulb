@@ -1,9 +1,22 @@
 body{
     background-color: black;
 }
+@media screen and (min-width:991px){
+    body{
+        display: flex;
+    }
+}
 .gray-Background {
-    background-color: gray;
+    background-color: rgb(98, 98, 98);
 }
 .white-Background{
     background-color:white;
+}
+
+.yellow-Background{
+    background-color:rgb(255, 231, 95);
+}
+
+.red-Background{
+    background-color:rgb(223, 65, 255);
 }
